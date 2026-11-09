@@ -9,6 +9,17 @@ import Countdown from '@/components/Countdown'
 import EventCard from '@/components/EventCard'
 import Gallery from '@/components/Gallery'
 
+type WeddingEvent = {
+  title: string
+  date: string
+  time: string
+  day: string
+  location: string
+  locationLink?: string
+  description: string
+  imagePath: string
+}
+
 export default function Home() {
   // Always show RSVP on page load. Modal will appear every refresh.
   const [showRSVP, setShowRSVP] = useState(true)
@@ -19,7 +30,7 @@ export default function Home() {
   const heroImage = '/images/couple/couple-main.jpeg'
 
   // Groom's Events
-  const groomEvents = [
+  const groomEvents: WeddingEvent[] = [
     {
       title: "Groom's Tilak",
       date: 'February 14, 2026',
@@ -53,7 +64,7 @@ export default function Home() {
   ]
 
   // Bride's Events
-  const brideEvents = [
+  const brideEvents: WeddingEvent[] = [
     {
       title: 'Mehendi',
       date: 'February 16, 2026',
