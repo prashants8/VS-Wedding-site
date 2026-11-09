@@ -8,7 +8,7 @@ You're seeing "App passwords is not available" because **2-Step Verification mus
 ### Step 1: Enable 2-Step Verification
 
 1. Go to: **https://myaccount.google.com/security**
-2. Sign in with **vatsal.mishra7794@gmail.com**
+2. Sign in with **your-email@example.com**
 3. Scroll down to **"Signing in to Google"** section
 4. Find **"2-Step Verification"**
 5. Click on it

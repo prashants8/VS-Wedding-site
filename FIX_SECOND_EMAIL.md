@@ -1,7 +1,7 @@
-# Fix Second Email - shr3yamishraaa@gmail.com
+# Fix Second Email - another-email@example.com
 
 ## The Problem
-Resend's test domain (`onboarding@resend.dev`) only allows sending to the account owner's email (vatsal.mishra7794@gmail.com).
+Resend's test domain (`onboarding@resend.dev`) only allows sending to the account owner's email (your-email@example.com).
 
 ## Solution Options
 
@@ -23,14 +23,14 @@ Resend's test domain (`onboarding@resend.dev`) only allows sending to the accoun
 
 1. Go to: **https://resend.com/settings**
 2. Look for **"Team"** or **"Email Addresses"** section
-3. Add `shr3yamishraaa@gmail.com` as a team member or verified email
+3. Add `another-email@example.com` as a team member or verified email
 4. This might allow it to receive test emails
 
 ### Option 3: Use Email Forwarding (Temporary)
 
 If you can't verify a domain right now, you can:
 1. Set up email forwarding in Gmail
-2. Forward emails from vatsal.mishra7794@gmail.com to shr3yamishraaa@gmail.com
+2. Forward emails from your-email@example.com to another-email@example.com
 3. This way both will receive notifications
 
 ## Quick Test

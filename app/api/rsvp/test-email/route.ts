@@ -9,7 +9,7 @@ export async function GET() {
   try {
     // Check if Resend is configured
     const resendApiKey = process.env.RESEND_API_KEY
-    const recipientEmails = process.env.RSVP_NOTIFICATION_EMAIL || 'vatsal.mishra7794@gmail.com'
+    const recipientEmails = process.env.RSVP_NOTIFICATION_EMAIL || ''
 
     if (!resendApiKey) {
       return NextResponse.json(

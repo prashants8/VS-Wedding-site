@@ -10,7 +10,7 @@ export async function sendRSVPEmail(rsvpData: {
   timestamp: string
 }) {
   const resendApiKey = process.env.RESEND_API_KEY
-  const recipientEmails = process.env.RSVP_NOTIFICATION_EMAIL || 'vatsal.mishra7794@gmail.com'
+  const recipientEmails = process.env.RSVP_NOTIFICATION_EMAIL || ''
 
   console.log('🔍 Email Function - Environment Check:')
   console.log('RESEND_API_KEY exists:', !!resendApiKey)
@@ -178,7 +178,6 @@ Source: Wedding Website
           if (error.message?.includes('testing emails to your own email address')) {
             console.log(`ℹ️ Test domain restriction detected for ${recipient}`)
             console.log(`💡 Solution: Verify a domain in Resend or add this email to your Resend account`)
-            console.log(`💡 For now, only vatsal.mishra7794@gmail.com will receive emails`)
           }
           
           errors.push({ recipient, error: error.message || 'Unknown error' })

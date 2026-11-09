@@ -18,11 +18,11 @@ export default function ThingsToDoPage() {
             className="text-center mb-16"
           >
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif text-wedding-burgundy mb-6 font-light tracking-tight">
-              Things to Do in Prayagraj
+              Things to Do Nearby
             </h1>
             <div className="w-20 h-0.5 bg-wedding-gold mx-auto mb-4"></div>
             <p className="text-gray-600 text-lg md:text-xl font-light mt-6">
-              Explore the beautiful city of Prayagraj during your visit
+              Explore the area during your visit
             </p>
           </motion.div>
 
@@ -34,11 +34,10 @@ export default function ThingsToDoPage() {
           >
             <div className="bg-wedding-cream p-8 rounded-2xl">
               <h3 className="text-2xl font-serif text-wedding-burgundy mb-4">
-                Triveni Sangam
+                Attraction •••••
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                The sacred confluence of three rivers - Ganga, Yamuna, and the mythical Saraswati. 
-                A must-visit spiritual site where pilgrims gather for holy dips.
+                Destination details are masked in this reference copy.
               </p>
               <p className="text-sm text-gray-600">
                 <strong>Best time to visit:</strong> Early morning or evening
@@ -47,7 +46,7 @@ export default function ThingsToDoPage() {
 
             <div className="bg-wedding-cream p-8 rounded-2xl">
               <h3 className="text-2xl font-serif text-wedding-burgundy mb-4">
-                Allahabad Fort
+                Attraction •••••
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
                 A magnificent fort built by Emperor Akbar in 1583. Home to the famous Patalpuri Temple 
@@ -60,11 +59,10 @@ export default function ThingsToDoPage() {
 
             <div className="bg-wedding-cream p-8 rounded-2xl">
               <h3 className="text-2xl font-serif text-wedding-burgundy mb-4">
-                Khusro Bagh
+                Attraction •••••
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                A beautiful walled garden containing the tombs of Prince Khusro, Shah Begum, and other 
-                Mughal royalty. A peaceful retreat with stunning Mughal architecture.
+                Destination details are masked in this reference copy.
               </p>
               <p className="text-sm text-gray-600">
                 <strong>Timings:</strong> Sunrise to Sunset
@@ -73,11 +71,10 @@ export default function ThingsToDoPage() {
 
             <div className="bg-wedding-cream p-8 rounded-2xl">
               <h3 className="text-2xl font-serif text-wedding-burgundy mb-4">
-                Anand Bhavan
+                Attraction •••••
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                The ancestral home of the Nehru family, now a museum showcasing India's freedom struggle. 
-                A place of historical significance and architectural beauty.
+                Destination details are masked in this reference copy.
               </p>
               <p className="text-sm text-gray-600">
                 <strong>Timings:</strong> 9:30 AM - 5:00 PM (Closed on Mondays)
@@ -86,11 +83,10 @@ export default function ThingsToDoPage() {
 
             <div className="bg-wedding-cream p-8 rounded-2xl">
               <h3 className="text-2xl font-serif text-wedding-burgundy mb-4">
-                All Saints Cathedral
+                Attraction •••••
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                Also known as Patthar Girja, this stunning Gothic-style cathedral is one of the most 
-                beautiful churches in India, built in the 19th century.
+                Destination details are masked in this reference copy.
               </p>
               <p className="text-sm text-gray-600">
                 <strong>Timings:</strong> 7:00 AM - 6:00 PM
@@ -99,11 +95,10 @@ export default function ThingsToDoPage() {
 
             <div className="bg-wedding-cream p-8 rounded-2xl">
               <h3 className="text-2xl font-serif text-wedding-burgundy mb-4">
-                Chandrashekhar Azad Park
+                Attraction •••••
               </h3>
               <p className="text-gray-700 leading-relaxed mb-4">
-                A large public park perfect for evening walks and relaxation. Named after the freedom 
-                fighter Chandrashekhar Azad, who made the ultimate sacrifice here.
+                Destination details are masked in this reference copy.
               </p>
               <p className="text-sm text-gray-600">
                 <strong>Best time to visit:</strong> Early morning or evening

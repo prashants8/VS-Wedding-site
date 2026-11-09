@@ -40,11 +40,11 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div className="border-b border-wedding-gold/30 pb-4">
                   <h3 className="text-xl font-serif text-wedding-burgundy mb-2">
-                    Prashant Mishra
+                    ••••••••••
                   </h3>
                   <p className="text-gray-600 mb-2">Bride's Father</p>
                   <a
-                    href="tel:+917007088622"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg
@@ -60,17 +60,17 @@ export default function ContactPage() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span>7007088622</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
 
                 <div className="border-b border-wedding-gold/30 pb-4">
                   <h3 className="text-xl font-serif text-wedding-burgundy mb-2">
-                    Aryan Mishra
+                    ••••••••••
                   </h3>
                   <p className="text-gray-600 mb-2">Bride's Brother</p>
                   <a
-                    href="tel:+919555807660"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg
@@ -86,17 +86,17 @@ export default function ContactPage() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span>9555807660</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-serif text-wedding-burgundy mb-2">
-                    Anshul Mishra
+                    ••••••••••
                   </h3>
                   <p className="text-gray-600 mb-2">Bride's Brother</p>
                   <a
-                    href="tel:+918948677962"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg
@@ -112,7 +112,7 @@ export default function ContactPage() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span>8948677962</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
               </div>
@@ -131,11 +131,11 @@ export default function ContactPage() {
               <div className="space-y-6">
                 <div className="border-b border-wedding-gold/30 pb-4">
                   <h3 className="text-xl font-serif text-wedding-burgundy mb-2">
-                    Dr. Surendra Kumar Mishra
+                    ••••••••••
                   </h3>
                   <p className="text-gray-600 mb-2">Groom's Father</p>
                   <a
-                    href="tel:+919415204117"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg
@@ -151,17 +151,17 @@ export default function ContactPage() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span>9415204117</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
 
                 <div className="border-b border-wedding-gold/30 pb-4">
                   <h3 className="text-xl font-serif text-wedding-burgundy mb-2">
-                    Abhishek Mishra
+                    ••••••••••
                   </h3>
                   <p className="text-gray-600 mb-2">Groom's Brother</p>
                   <a
-                    href="tel:+916392012377"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg
@@ -177,17 +177,17 @@ export default function ContactPage() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span>6392012377</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-serif text-wedding-burgundy mb-2">
-                    Prashant Shukla
+                    ••••••••••
                   </h3>
                   <p className="text-gray-600 mb-2">Groom's Brother</p>
                   <a
-                    href="tel:+918780703741"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg
@@ -203,7 +203,7 @@ export default function ContactPage() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span>8780703741</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
               </div>

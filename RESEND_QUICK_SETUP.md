@@ -30,7 +30,7 @@ I've switched your email to **Resend** - it's much easier than Gmail App Passwor
 Example:
 ```env
 RESEND_API_KEY=re_AbCdEfGhIjKlMnOpQrStUvWxYz
-RSVP_NOTIFICATION_EMAIL=vatsal.mishra7794@gmail.com
+RSVP_NOTIFICATION_EMAIL=your-email@example.com
 RESEND_FROM_EMAIL=Wedding RSVP <onboarding@resend.dev>
 ```
 
@@ -50,7 +50,7 @@ You should see:
 {
   "success": true,
   "message": "Test email sent successfully!",
-  "recipient": "vatsal.mishra7794@gmail.com"
+  "recipient": "your-email@example.com"
 }
 ```
 

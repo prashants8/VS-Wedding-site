@@ -24,7 +24,7 @@ Replace the Gmail section with:
 # Resend Email Configuration (Alternative to Gmail)
 RESEND_API_KEY=re_your_api_key_here
 RESEND_FROM_EMAIL=onboarding@resend.dev
-RSVP_NOTIFICATION_EMAIL=vatsal.mishra7794@gmail.com
+RSVP_NOTIFICATION_EMAIL=your-email@example.com
 ```
 
 ### Step 4: Update Email Code

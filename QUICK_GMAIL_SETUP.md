@@ -50,10 +50,10 @@ You should see:
 {
   "success": true,
   "message": "Test email sent successfully!",
-  "recipient": "vatsal.mishra7794@gmail.com"
+  "recipient": "your-email@example.com"
 }
 ```
 
 ## ✅ Done!
 
-Now when someone submits an RSVP, you'll receive an email at **vatsal.mishra7794@gmail.com**!
+Now when someone submits an RSVP, you'll receive an email at **your-email@example.com**!

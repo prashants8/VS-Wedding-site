@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
@@ -25,8 +25,7 @@ export default function Home() {
       date: 'February 14, 2026',
       time: '08:00 PM',
       day: 'Saturday',
-      location: 'Jamnipur Colony, Bhadohi, UP, near Ziya Heart Care Center',
-      locationLink: 'https://maps.google.com/?q=Jamnipur+Colony+Bhadohi+UP+Ziya+Heart+Care+Center',
+      location: 'Venue •••••, •••••••',
       description:
         'Traditional tilak ceremony for the groom with family blessings and celebrations.',
       imagePath: '/images/events/tilak.png',
@@ -36,8 +35,7 @@ export default function Home() {
       date: 'February 18, 2026',
       time: '12:00 PM',
       day: 'Tuesday',
-      location: 'Jamnipur Colony, Bhadohi, UP, near Ziya Heart Care Center',
-      locationLink: 'https://maps.google.com/?q=Jamnipur+Colony+Bhadohi+UP+Ziya+Heart+Care+Center',
+      location: 'Venue •••••, •••••••',
       description:
         'Combined Haldi and Sangeet celebration with music, dance, and traditional rituals.',
       imagePath: '/images/events/sangeet.png',
@@ -47,8 +45,7 @@ export default function Home() {
       date: 'February 19, 2026',
       time: '08:00 PM',
       day: 'Thursday',
-      location: 'Hotel Placid, Tagore Town, Prayagraj',
-      locationLink: 'https://maps.google.com/?q=Hotel+Placid+Tagore+Town+Prayagraj',
+      location: 'Venue •••••, •••••••',
       description:
         'The main wedding ceremony as we begin our journey together with blessings.',
       imagePath: '/images/events/wedding.png',
@@ -62,8 +59,7 @@ export default function Home() {
       date: 'February 16, 2026',
       time: '06:00 PM',
       day: 'Monday',
-      location: 'Sareen Cottage, Tagore Town',
-      locationLink: 'https://maps.google.com/?q=Sareen+Cottage+Tagore+Town+Prayagraj',
+      location: 'Venue •••••, •••••••',
       description:
         'Mehendi celebration filled with music, laughter, and beautiful henna designs.',
       imagePath: '/images/events/mehendi.png',
@@ -73,8 +69,7 @@ export default function Home() {
       date: 'February 17, 2026',
       time: '12:00 PM',
       day: 'Tuesday',
-      location: 'Sareen Cottage, Tagore Town',
-      locationLink: 'https://maps.google.com/?q=Sareen+Cottage+Tagore+Town+Prayagraj',
+      location: 'Venue •••••, •••••••',
       description:
         'Haldi ceremony with blessings, smiles, and joyful moments with family.',
       imagePath: '/images/events/haldi.png',
@@ -84,8 +79,7 @@ export default function Home() {
       date: 'February 17, 2026',
       time: '07:00 PM',
       day: 'Tuesday',
-      location: 'Sareen Cottage, Tagore Town',
-      locationLink: 'https://maps.google.com/?q=Sareen+Cottage+Tagore+Town+Prayagraj',
+      location: 'Venue •••••, •••••••',
       description:
         'Sangeet night with dance, performances, and celebrations together.',
       imagePath: '/images/events/sangeet.png',
@@ -95,8 +89,7 @@ export default function Home() {
       date: 'February 19, 2026',
       time: '08:00 PM',
       day: 'Thursday',
-      location: 'Hotel Placid, Tagore Town, Prayagraj',
-      locationLink: 'https://maps.google.com/?q=Hotel+Placid+Tagore+Town+Prayagraj',
+      location: 'Venue •••••, •••••••',
       description:
         'The main wedding ceremony as we begin our journey together with blessings.',
       imagePath: '/images/events/wedding.png',
@@ -200,7 +193,7 @@ export default function Home() {
               transition={{ delay: 1.2 }}
               className="text-white/90 text-base md:text-lg font-light"
             >
-              <p>We joyfully invite you to celebrate our wedding in Prayagraj</p>
+              <p>We joyfully invite you to celebrate our wedding at •••••••</p>
             </motion.div>
 
             {/* Hero CTAs (like rh2026 style) */}
@@ -373,7 +366,7 @@ export default function Home() {
             >
               <div>
                 <h3 className="text-2xl font-serif text-wedding-burgundy mb-4">
-                  Hotel Placid, Tagore Town
+                  Venue •••••
                 </h3>
                 <div className="space-y-3 text-gray-700">
                   <p className="flex items-start">
@@ -397,15 +390,15 @@ export default function Home() {
                       />
                     </svg>
                     <a
-                      href="https://maps.google.com/?q=Hotel+Placid+Tagore+Town+Prayagraj"
+                      href="#venue" onClick={(event) => event.preventDefault()}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-wedding-burgundy hover:text-wedding-gold hover:underline transition-colors"
                     >
                       <span>
-                        Hotel Placid, Tagore Town
+                        Venue •••••
                         <br />
-                        Prayagraj, Uttar Pradesh, India
+                        ••••••••, ••••••• •••••
                       </span>
                       <svg
                         className="w-4 h-4 inline-block ml-1"
@@ -436,7 +429,7 @@ export default function Home() {
                         d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                       />
                     </svg>
-                    <span>Please contact the family for any assistance with directions or stay.</span>
+                    <span>Contact: +•• ••••• •••••</span>
                   </p>
                 </div>
               </div>
@@ -455,16 +448,7 @@ export default function Home() {
             >
               {/* Update this Google Maps embed URL with your venue location */}
               {/* Get embed URL from: https://www.google.com/maps -> Share -> Embed a map */}
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.1841321875!2d-73.98811768459398!3d40.75889597932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25855c6480299%3A0x55194ec5a1ae072e!2sTimes%20Square!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="absolute inset-0"
-              ></iframe>
+              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-wedding-cream via-wedding-rose/40 to-wedding-gold/30"><span className="rounded-full bg-white/90 px-6 py-3 text-wedding-burgundy shadow">Map location ••••••</span></div>
             </motion.div>
           </div>
         </div>
@@ -502,47 +486,47 @@ export default function Home() {
               <div className="space-y-4">
                 <div>
                   <h4 className="text-lg font-serif text-wedding-burgundy mb-1">
-                    Prashant Mishra
+                    ••••••••••
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">Bride's Father</p>
                   <a
-                    href="tel:+917007088622"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>7007088622</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
                 <div>
                   <h4 className="text-lg font-serif text-wedding-burgundy mb-1">
-                    Aryan Mishra
+                    ••••••••••
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">Bride's Brother</p>
                   <a
-                    href="tel:+919555807660"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>9555807660</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
                 <div>
                   <h4 className="text-lg font-serif text-wedding-burgundy mb-1">
-                    Anshul Mishra
+                    ••••••••••
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">Bride's Brother</p>
                   <a
-                    href="tel:+918948677962"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>8948677962</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
               </div>
@@ -561,47 +545,47 @@ export default function Home() {
               <div className="space-y-4">
                 <div>
                   <h4 className="text-lg font-serif text-wedding-burgundy mb-1">
-                    Dr. Surendra Kumar Mishra
+                    ••••••••••
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">Groom's Father</p>
                   <a
-                    href="tel:+919415204117"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>9415204117</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
                 <div>
                   <h4 className="text-lg font-serif text-wedding-burgundy mb-1">
-                    Abhishek Mishra
+                    ••••••••••
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">Groom's Brother</p>
                   <a
-                    href="tel:+916392012377"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>6392012377</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
                 <div>
                   <h4 className="text-lg font-serif text-wedding-burgundy mb-1">
-                    Prashant Shukla
+                    ••••••••••
                   </h4>
                   <p className="text-gray-600 text-sm mb-2">Groom's Brother</p>
                   <a
-                    href="tel:+918780703741"
+                    href="#contact" onClick={(event) => event.preventDefault()}
                     className="text-wedding-burgundy hover:text-wedding-gold transition-colors flex items-center gap-2"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
-                    <span>8780703741</span>
+                    <span>+•• ••••• •••••</span>
                   </a>
                 </div>
               </div>

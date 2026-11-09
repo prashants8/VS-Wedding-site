@@ -15,7 +15,7 @@ export default function Navbar({ onRSVPClick }: { onRSVPClick: () => void }) {
       { label: 'HOME', href: '/' },
       { label: 'PHOTOS', href: '/#photos' },
       { label: 'EVENTS', href: '/#events' },
-      { label: 'THINGS TO DO IN PRAYAGRAJ', href: '/things-to-do' },
+      { label: 'THINGS TO DO NEARBY', href: '/things-to-do' },
       { label: 'CONTACT', href: '/contact' },
     ],
     []

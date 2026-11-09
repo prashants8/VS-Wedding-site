@@ -1,6 +1,6 @@
 # Gmail Email Setup Guide
 
-This guide will help you set up Gmail to send RSVP notification emails to **vatsal.mishra7794@gmail.com**.
+This guide will help you set up Gmail to send RSVP notification emails to **your-email@example.com**.
 
 ## Step 1: Enable 2-Step Verification
 
@@ -33,21 +33,21 @@ This guide will help you set up Gmail to send RSVP notification emails to **vats
 
 ```env
 # Gmail Configuration
-GMAIL_USER=vatsal.mishra7794@gmail.com
+GMAIL_USER=your-email@example.com
 GMAIL_APP_PASSWORD=your-16-character-app-password-here
-RSVP_NOTIFICATION_EMAIL=vatsal.mishra7794@gmail.com
+RSVP_NOTIFICATION_EMAIL=your-email@example.com
 ```
 
 **Replace:**
-- `GMAIL_USER` → Your Gmail address (vatsal.mishra7794@gmail.com)
+- `GMAIL_USER` → Your Gmail address (your-email@example.com)
 - `GMAIL_APP_PASSWORD` → The 16-character app password from Step 2 (remove spaces)
-- `RSVP_NOTIFICATION_EMAIL` → Where to send notifications (vatsal.mishra7794@gmail.com)
+- `RSVP_NOTIFICATION_EMAIL` → Where to send notifications (your-email@example.com)
 
 **Example:**
 ```env
-GMAIL_USER=vatsal.mishra7794@gmail.com
+GMAIL_USER=your-email@example.com
 GMAIL_APP_PASSWORD=abcdefghijklmnop
-RSVP_NOTIFICATION_EMAIL=vatsal.mishra7794@gmail.com
+RSVP_NOTIFICATION_EMAIL=your-email@example.com
 ```
 
 ## Step 4: Restart Server
@@ -61,7 +61,7 @@ npm run dev
 
 1. Go to your website
 2. Submit an RSVP
-3. Check **vatsal.mishra7794@gmail.com** inbox
+3. Check **your-email@example.com** inbox
 4. You should receive a beautiful HTML email with RSVP details! 🎉
 
 ## Troubleshooting
